@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+
+body{
+    margin: 0px;	
+    padding: 0px;
+    font-family: "微软雅黑", sans-serif, Verdana, Arial, Helvetica, Tahoma, "宋体";
+    font-size:  14px;
+    font-style: normal;
+    font-variant: nomal;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #deefe5;
+}
+
+a{
+    color: #505050;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;	
+}
+
+a:hover{
+    color: #ba2636;
+    text-decoration: none;
+}
+
+a:active{
+    color: #ba2636;
+}
+
+li{
+    cursor: pointer;
+    padding:3px 0px 0px 15px;
+    list-style: none;
+    text-align: left;
+}
+
+.iconBorder{
+    border: 1px #fff solid;
+}
+
+.selectColor{
+    background-color: #CC0000;
+    color: #fff;
+}
+
+.selectColor a{
+    color: #fff;
+}
+
+#div_main_menu{
+    width: 600px;
+    display: block;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-250px 0 0 -300px;
+    font-size: 32px;
+    line-height: 50px;
+    color: #fff;
+}
+
+#div_main{
+    width: 1086px;
+    background-color:#ffffff;
+    display: block;
+    margin: 20px auto 0px auto;
+    position: static;
+    left: 50%;
+    top: 50%;
+}
+
+#div_menu{
+    height: 125px;
+    width: 1066px;
+    background-color: rgb(79, 108, 160);
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 20px;
+    color: #ffffff;
+    float: left;
+}
+
+.menuBtn{
+    width: 70px;
+    height: 60px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+}
+
+#div_menu span img{
+    width: 64px;
+    height:64px;
+    border: none;
+}
+
+#div_menu_btn{
+    width: 500px;
+    height: 95px;
+    float: left;
+    margin-top: 15px;
+}
+
+#infoWin{
+    display: inline-block;
+    width: 230px;
+    height: 65px;
+    color:#ffffff;
+    margin-top: 30px;
+}
+
+#keyWin{
+    display: inline-block;
+    width: 95px;
+    height:110px;
+    float: right;    
+    color:#ffffff;
+}
+
+#div_body{
+    width:100%;
+    display: block;
+    overflow: visible;
+    margin: 0px;
+    padding: 0px;
+}
+
+input,select,textArea{
+    border: 1px solid #ecebeb;
+    height: 28px;
+}
+
+#keyWin{
+    width: 150px;
+    padding-right: 20px;
+    margin-top: 10px;
+}

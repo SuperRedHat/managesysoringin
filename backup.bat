@@ -1,0 +1,1 @@
+copy d:\iamvipV3\lib\iamvip.db D:\Î¢ÔÆ\%date:~-1,3%.db

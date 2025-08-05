@@ -1,0 +1,40 @@
+更新信息
+
+1.更新视图 v_vendition
+
+drop VIEW v_vendition;
+CREATE VIEW "v_vendition" AS 
+SELECT
+d_vendition.vendId AS vId,
+d_vendition.clientName AS cName,
+d_vendition.vendTime AS vTime,
+d_vendition.money AS money,
+d_vendition.usePoint AS usePoint,
+d_vendition.note
+FROM
+d_vendition;
+
+
+drop table d_changeLog;
+CREATE TABLE "d_changeLog" (
+"id"  INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+"vendId"  INTEGER NOT NULL,
+"changeTime"  TEXT NOT NULL DEFAULT (datetime('now', 'localtime')),
+"oldVend"  TEXT NOT NULL,
+"newVend"  TEXT NOT NULL,
+"czydm"  TEXT NOT NULL
+);
+
+
+drop VIEW v_changeLog;
+CREATE VIEW "v_changeLog" AS 
+SELECT
+d_changeLog.vendId AS vid,
+d_changeLog.changeTime AS ctime,
+d_changeLog.oldVend AS vold,
+d_changeLog.newVend AS vnew,
+d_changeLog.czydm,
+d_czydm.czymc
+FROM
+d_changeLog
+INNER JOIN d_czydm ON d_changeLog.czydm = d_czydm.czydm;

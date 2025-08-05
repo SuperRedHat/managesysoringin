@@ -1,0 +1,165 @@
+/* 
+    Document   : vendition
+    Created on : 2013-4-21, 19:51:51
+    Author     : 文
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#div_body{
+    width:1086px;
+}
+
+#div_left{
+    width: 264px;
+    height:620px;
+    float: left;
+    display: inline-block;
+    background-color: #eff0f1;
+    padding: 8px;
+}
+
+.div_client{
+    width: 240px;
+    text-align: left;
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.div_client span{
+    color: #4e4e4e;
+}
+
+.div_client input{
+    width: 130px;
+    height:25px;
+    display: inline-block;
+}
+
+
+.span_title{
+    width: 88px;
+    height: 32px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 4px;
+}
+
+
+#div_history{
+    width: 100%;
+    overflow: auto;
+}
+
+#div_prodInfo{
+    width: 803px;
+    min-height: 635px;
+    display: inline-block;
+    text-align: left;
+}
+
+#div_prodInfo_memu{
+    background-color: ghostWhite;
+    height: 90px;
+    width: 803px;
+    padding-top:10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#info_menu_l{
+	display: inline-block;
+	width: 390px;	
+}
+
+#info_menu_l{
+	display: inline-block;
+	width: 480px;	
+}
+
+
+#note{
+    height: 36px;
+    width: 200px;
+}
+
+#span_sk{
+    width: 80px;
+    display: inline-block;
+}
+
+#span_zl{
+    width: 80px;
+    display: inline-block;
+    color: red;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+
+
+#div_saleList,#div_saleList_title{
+    width: 766px;
+    background-color: #ffffff;
+    padding-left: 20px;
+
+}
+
+.div_saleList_item,.div_saleList_item1,.div_saleList_item2{
+
+    height: 25px;
+    text-align: center;
+    display:table-cell;
+    padding: 10px 0px 10px 0px;
+    background-color: #fff;
+    margin: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #b8ddf1;
+    border-bottom-width: 1px;
+}
+
+.div_saleList_item{
+    width: 120px;
+}
+
+.div_saleList_item1{
+    width: 50px;
+    padding-left: 10px;
+}
+
+.div_saleList_item2{
+    width: 240px;
+}
+
+
+.div_saleList_item input{
+    height:20px;
+    width: 60px;
+}
+
+#div_left input[disabled]{
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e4dfdf;
+    background:transparent;
+    text-align: center;
+}
+
+#div_saleList input[disabled]{
+    border: none;
+    background:transparent;
+    text-align: center;
+}
+
+
+.span_txt{
+    width: 110px;
+    display: inline-block;
+    font-size: 20px;
+}
